@@ -1,0 +1,15 @@
+name: Hola mundo Action GH
+
+on:
+    push: 
+      branches:
+        - main
+
+jobs:
+  hola_mundo:
+    name: imprimir Hola mundo
+    runs-on: ubunto-latest
+
+    steps:
+        - name: imprimir Hola mundo
+        run: echo "Hola mundo"
